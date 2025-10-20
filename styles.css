@@ -148,11 +148,11 @@ body {
     transform: translateY(-50%);
     width: 60%;
     height: 80%;
-    background-image: url('logo.png');
+    background-image: url('logo-transparent.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.03;
+    opacity: 0.05;
     z-index: 0;
     pointer-events: none;
 }
