@@ -7,155 +7,175 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <ul class="nav-menu">
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
     <!-- Hero Section -->
-    <section class="hero-bento">
+    <section class="hero">
         <div class="container">
-            <div class="hero-logo">
-                <img src="images/newone.png" alt="Alltra.Ai">
+            <div class="hero-content">
+                <h1 class="hero-title">Scaling artificial intelligence can create a massive competitive advantage</h1>
+                <p class="hero-description">Learn how our AI-driven solutions help trades professionals extract value, win more bids, and grow their business.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#solutions" class="btn btn-secondary">Explore Solutions</a>
+                </div>
             </div>
-            <h1 class="hero-tagline">Empowering Trades People Through AI</h1>
         </div>
     </section>
 
-    <!-- Bento Grid -->
-    <section class="bento-section">
+    <!-- Solutions Grid -->
+    <section class="solutions" id="solutions">
         <div class="container">
-            <div class="bento-grid">
+            <div class="section-header">
+                <h2 class="section-title">Our AI Solutions</h2>
+                <p class="section-subtitle">Purpose-built AI tools for the trades industry</p>
+            </div>
+            <div class="solutions-grid">
 
-                <!-- Card: Smart Estimation -->
-                <div class="bento-card card-blue card-large">
-                    <div class="card-content">
-                        <h2>Smart Estimation</h2>
-                        <p>AI-powered estimates that learn from your data to generate accurate bids in seconds</p>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+                <!-- Solution 1 -->
+                <div class="solution-card">
+                    <div class="card-icon">💡</div>
+                    <h3 class="card-title">Smart Estimation</h3>
+                    <p class="card-description">AI-powered estimates that learn from your historical data to generate accurate bids in seconds. Reduce estimation time by 80% while improving accuracy.</p>
+                    <a href="#" class="card-link">Learn more →</a>
                 </div>
 
-                <!-- Card: Solutions -->
-                <div class="bento-card card-orange card-medium">
-                    <div class="card-content">
-                        <h2>Our Solutions</h2>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M16 20H24M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+                <!-- Solution 2 -->
+                <div class="solution-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title">Workflow Automation</h3>
+                    <p class="card-description">Eliminate repetitive administrative tasks with intelligent automation. Focus on what matters—growing your business and serving customers.</p>
+                    <a href="#" class="card-link">Learn more →</a>
                 </div>
 
-                <!-- Card: Careers -->
-                <div class="bento-card card-orange card-tall">
-                    <div class="card-content">
-                        <h2>Careers</h2>
-                        <p>Join our mission to transform the trades industry</p>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M15 20L18 23L25 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
+                <!-- Solution 3 -->
+                <div class="solution-card">
+                    <div class="card-icon">📊</div>
+                    <h3 class="card-title">Predictive Analytics</h3>
+                    <p class="card-description">Data-driven insights help you make better decisions. Forecast project costs, identify risks, and optimize resource allocation.</p>
+                    <a href="#" class="card-link">Learn more →</a>
                 </div>
 
-                <!-- Card: Workflow Automation -->
-                <div class="bento-card card-orange card-large">
-                    <div class="card-content">
-                        <h2>Workflow Automation</h2>
-                        <p>Eliminate repetitive tasks and focus on growing your business</p>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M24 16L28 20L24 24M16 24L12 20L16 16M22 14L18 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
+                <!-- Solution 4 -->
+                <div class="solution-card">
+                    <div class="card-icon">📅</div>
+                    <h3 class="card-title">Intelligent Scheduling</h3>
+                    <p class="card-description">Optimize crew allocation and project timelines with AI-powered scheduling. Maximize productivity and meet deadlines consistently.</p>
+                    <a href="#" class="card-link">Learn more →</a>
                 </div>
 
-                <!-- Card: Case Studies -->
-                <div class="bento-card card-blue card-medium">
-                    <div class="card-content">
-                        <h2>Case Studies</h2>
-                        <p>Real results from real contractors</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <div class="value-content">
+                <div class="value-text">
+                    <h2 class="value-title">Transforming the trades industry through artificial intelligence</h2>
+                    <p>Our AI platform is purpose-built for trades professionals. We understand the unique challenges you face—from accurate bidding to crew scheduling to project management.</p>
+                    <p>By combining industry expertise with cutting-edge AI technology, we help contractors win more bids, complete projects faster, and grow profitably.</p>
+                </div>
+                <div class="value-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">80%</div>
+                        <div class="stat-label">Reduction in estimation time</div>
                     </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Bid accuracy improvement</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3x</div>
+                        <div class="stat-label">Faster project planning</div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Card: Intelligent Scheduling -->
-                <div class="bento-card card-blue card-tall">
-                    <div class="card-content">
-                        <h2>Intelligent Scheduling</h2>
-                        <p>Optimize crew allocation with predictive analytics</p>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M12 20H28M20 12V28" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+    <!-- Capabilities -->
+    <section class="capabilities" id="capabilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Capabilities</h2>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <h3>AI Agents</h3>
+                    <p>Intelligent assistants that handle routine tasks, answer questions, and support your team 24/7.</p>
                 </div>
-
-                <!-- Card: Predictive Analytics -->
-                <div class="bento-card card-blue card-medium">
-                    <div class="card-content">
-                        <h2>Predictive Analytics</h2>
-                        <p>Data-driven insights for better decisions</p>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+                <div class="capability-card">
+                    <h3>Machine Learning</h3>
+                    <p>Advanced algorithms that learn from your data to deliver increasingly accurate predictions.</p>
                 </div>
-
-                <!-- Card: Get Started -->
-                <div class="bento-card card-orange card-large">
-                    <div class="card-content">
-                        <h2>Ready to Transform?</h2>
-                        <p>Let's discuss how Alltra can help you grow</p>
-                        <a href="mailto:hello@alltra.ai" class="card-button">Get in Touch</a>
-                    </div>
-                    <div class="card-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
-                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+                <div class="capability-card">
+                    <h3>Natural Language Processing</h3>
+                    <p>Extract insights from documents, emails, and communications automatically.</p>
                 </div>
+                <div class="capability-card">
+                    <h3>Computer Vision</h3>
+                    <p>Analyze photos and videos to track progress, identify issues, and ensure quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to transform your business with AI?</h2>
+                <p class="cta-description">Schedule a consultation to learn how Alltra can help you win more bids and grow your business.</p>
+                <a href="mailto:hello@alltra.ai" class="btn btn-primary">Get in Touch</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer-bento">
+    <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <img src="images/newone.png" alt="Alltra" class="footer-logo">
-                    <p>AI for the trades</p>
+                    <h4>Alltra</h4>
+                    <p class="footer-tagline">AI for the trades</p>
                 </div>
                 <div class="footer-col">
                     <h4>Solutions</h4>
                     <ul>
                         <li><a href="#">Smart Estimation</a></li>
                         <li><a href="#">Workflow Automation</a></li>
-                        <li><a href="#">Intelligent Scheduling</a></li>
                         <li><a href="#">Predictive Analytics</a></li>
+                        <li><a href="#">Intelligent Scheduling</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Capabilities</h4>
+                    <ul>
+                        <li><a href="#">AI Agents</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">NLP</a></li>
+                        <li><a href="#">Computer Vision</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -164,14 +184,7 @@
                         <li><a href="#">About</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Privacy</a></li>
                     </ul>
                 </div>
             </div>
