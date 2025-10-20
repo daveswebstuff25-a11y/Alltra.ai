@@ -3,306 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alltra - Empowering Trades People Through AI</title>
+    <title>Alltra - AI for Trades</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="main-nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="logo.png" alt="Alltra.Ai" class="logo-img">
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item has-dropdown">
-                    <a href="#services">Solutions</a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-content">
-                            <div class="mega-menu-column">
-                                <h3>AI Solutions</h3>
-                                <ul>
-                                    <li><a href="#automation">Workflow Automation</a></li>
-                                    <li><a href="#estimation">Smart Estimation</a></li>
-                                    <li><a href="#scheduling">Intelligent Scheduling</a></li>
-                                    <li><a href="#analytics">Predictive Analytics</a></li>
-                                </ul>
-                            </div>
-                            <div class="mega-menu-column">
-                                <h3>Industry Solutions</h3>
-                                <ul>
-                                    <li><a href="#electrical">Electrical</a></li>
-                                    <li><a href="#plumbing">Plumbing</a></li>
-                                    <li><a href="#hvac">HVAC</a></li>
-                                    <li><a href="#general">General Contracting</a></li>
-                                </ul>
-                            </div>
-                            <div class="mega-menu-column">
-                                <h3>Business Services</h3>
-                                <ul>
-                                    <li><a href="#consulting">Consulting</a></li>
-                                    <li><a href="#training">Training & Support</a></li>
-                                    <li><a href="#integration">System Integration</a></li>
-                                    <li><a href="#custom">Custom Development</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item has-dropdown">
-                    <a href="#industries">Industries</a>
-                    <div class="mega-menu">
-                        <div class="mega-menu-content">
-                            <div class="mega-menu-column">
-                                <h3>Trades</h3>
-                                <ul>
-                                    <li><a href="#construction">Construction</a></li>
-                                    <li><a href="#mechanical">Mechanical Services</a></li>
-                                    <li><a href="#specialty">Specialty Contractors</a></li>
-                                </ul>
-                            </div>
-                            <div class="mega-menu-column">
-                                <h3>Business Size</h3>
-                                <ul>
-                                    <li><a href="#small">Small Business</a></li>
-                                    <li><a href="#medium">Mid-Market</a></li>
-                                    <li><a href="#enterprise">Enterprise</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item"><a href="#insights">Insights</a></li>
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="logo.png" alt="Alltra" class="logo-img">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#solutions" class="scramble">Solutions</a></li>
+                    <li><a href="#work" class="scramble">Work</a></li>
+                    <li><a href="#about" class="scramble">About</a></li>
+                    <li><a href="#contact" class="nav-cta">Get Started</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=2000" alt="Modern workspace">
-            <div class="hero-overlay"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Will you shape the future or be shaped by it?</h1>
-                <p>AI-powered solutions transforming how trades professionals work, estimate, and grow their business.</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Empowering Trades Through AI</div>
+                <h1 class="hero-title">
+                    Build smarter.<br>
+                    Work faster.<br>
+                    <span class="gradient-text">Scale bigger.</span>
+                </h1>
+                <p class="hero-description">
+                    AI-powered solutions that transform how trades professionals estimate, schedule, and grow their business.
+                </p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Start your transformation</a>
-                    <a href="#insights" class="btn btn-secondary">Explore insights</a>
+                    <a href="#contact" class="btn btn-primary">Start Building</a>
+                    <a href="#work" class="btn btn-secondary">See Our Work</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Time Saved</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Solutions Deployed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="section solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What We Build</h2>
+                <p class="section-subtitle">AI tools designed for the real world of trades</p>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title">Smart Estimation</h3>
+                    <p class="card-description">AI learns from your historical data to generate accurate bids in seconds, not hours.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title">Intelligent Scheduling</h3>
+                    <p class="card-description">Optimize crew allocation and project timelines with predictive analytics.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon">📊</div>
+                    <h3 class="card-title">Workflow Automation</h3>
+                    <p class="card-description">Eliminate repetitive tasks and focus on what actually grows your business.</p>
+                    <a href="#" class="card-link">Learn more →</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="card-icon">🔮</div>
+                    <h3 class="card-title">Predictive Analytics</h3>
+                    <p class="card-description">Make data-driven decisions with real-time insights into project performance.</p>
+                    <a href="#" class="card-link">Learn more →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Solutions -->
-    <section class="section section-light">
+    <!-- Work Section -->
+    <section class="section work" id="work">
         <div class="container">
-            <h2 class="section-title">Featured solutions</h2>
-            <div class="grid grid-3">
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Workflow Automation</h3>
-                    <p>Streamline repetitive tasks and free your team to focus on what matters most.</p>
-                    <a href="#" class="link-arrow">Learn more →</a>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h3>Smart Estimation</h3>
-                    <p>AI-powered estimates that learn from your historical data to improve accuracy.</p>
-                    <a href="#" class="link-arrow">Learn more →</a>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Predictive Analytics</h3>
-                    <p>Make data-driven decisions with insights into project timelines and resource allocation.</p>
-                    <a href="#" class="link-arrow">Learn more →</a>
-                </div>
+            <div class="section-header">
+                <h2 class="section-title">Recent Work</h2>
+                <p class="section-subtitle">Real results from real contractors</p>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=500&fit=crop" alt="Electrical contractor workspace">
+                    </div>
+                    <div class="work-content">
+                        <span class="work-tag">Electrical</span>
+                        <h3 class="work-title">70% Faster Estimates</h3>
+                        <p class="work-description">Regional electrical contractor transformed their bidding process with AI-powered estimation.</p>
+                        <a href="#" class="work-link">Read case study →</a>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=500&fit=crop" alt="Plumbing business growth">
+                    </div>
+                    <div class="work-content">
+                        <span class="work-tag">Plumbing</span>
+                        <h3 class="work-title">5 to 50 Employees</h3>
+                        <p class="work-description">How intelligent automation helped a local plumber scale to regional leader.</p>
+                        <a href="#" class="work-link">Read case study →</a>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop" alt="HVAC optimization">
+                    </div>
+                    <div class="work-content">
+                        <span class="work-tag">HVAC</span>
+                        <h3 class="work-title">15% Higher Margins</h3>
+                        <p class="work-description">Predictive analytics optimized resource allocation for maximum profitability.</p>
+                        <a href="#" class="work-link">Read case study →</a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Case Studies Carousel -->
-    <section class="section section-dark">
+    <!-- About Section -->
+    <section class="section about" id="about">
         <div class="container">
-            <h2 class="section-title">Success stories</h2>
-            <div class="swiper case-studies-carousel">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="case-study-card">
-                            <div class="case-study-image">
-                                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800" alt="Case study">
-                            </div>
-                            <div class="case-study-content">
-                                <span class="case-study-tag">ELECTRICAL</span>
-                                <h3>Reducing estimation time by 70%</h3>
-                                <p>How a regional electrical contractor transformed their bidding process with AI-powered estimation.</p>
-                                <a href="#" class="link-arrow">Read case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="case-study-card">
-                            <div class="case-study-image">
-                                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800" alt="Case study">
-                            </div>
-                            <div class="case-study-content">
-                                <span class="case-study-tag">PLUMBING</span>
-                                <h3>Scaling from 5 to 50 employees</h3>
-                                <p>A plumbing company's journey from local business to regional leader with intelligent automation.</p>
-                                <a href="#" class="link-arrow">Read case study →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="case-study-card">
-                            <div class="case-study-image">
-                                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800" alt="Case study">
-                            </div>
-                            <div class="case-study-content">
-                                <span class="case-study-tag">HVAC</span>
-                                <h3>15% increase in project margin</h3>
-                                <p>Discover how predictive analytics helped an HVAC contractor optimize resource allocation.</p>
-                                <a href="#" class="link-arrow">Read case study →</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Built for trades, by people who get it</h2>
+                    <p>We're not another tech company trying to disrupt your industry. We're builders who understand the real challenges of running a trades business.</p>
+                    <p>Every solution we create is designed to solve actual problems—faster estimates, better scheduling, smarter decisions. No fluff, no complexity, just tools that work.</p>
+                    <a href="#contact" class="btn btn-primary">Work with us</a>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Insights Section -->
-    <section class="section section-accent">
-        <div class="container">
-            <div class="insights-grid">
-                <div class="insights-featured">
-                    <span class="insight-label">FEATURED INSIGHT</span>
-                    <h2>The future of trades: AI adoption trends in 2025</h2>
-                    <p>Our latest research reveals how forward-thinking trades businesses are leveraging AI to stay competitive in an evolving market.</p>
-                    <a href="#" class="btn btn-dark">Download report</a>
-                </div>
-                <div class="insights-list">
-                    <div class="insight-item">
-                        <span class="insight-date">15 Oct 2025</span>
-                        <h4>5 ways AI is transforming electrical contracting</h4>
-                        <a href="#" class="link-arrow">Read more →</a>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Years in Trades</div>
                     </div>
-                    <div class="insight-item">
-                        <span class="insight-date">12 Oct 2025</span>
-                        <h4>Building the trades business of tomorrow</h4>
-                        <a href="#" class="link-arrow">Read more →</a>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Delivered</div>
                     </div>
-                    <div class="insight-item">
-                        <span class="insight-date">08 Oct 2025</span>
-                        <h4>Why digital transformation matters for small contractors</h4>
-                        <a href="#" class="link-arrow">Read more →</a>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="section section-light">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Solutions Delivered</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">89%</div>
-                    <div class="stat-label">Time Saved</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Success Rate</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Support Available</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="section section-dark cta-section">
+    <section class="section cta" id="contact">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to transform your business?</h2>
-                <p>Let's discuss how Alltra can help you achieve your goals.</p>
-                <a href="#contact" class="btn btn-accent">Get in touch</a>
+                <h2 class="cta-title">Ready to transform your business?</h2>
+                <p class="cta-description">Let's talk about how AI can help you work smarter and scale faster.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:hello@alltra.ai" class="btn btn-primary">Get in Touch</a>
+                    <a href="#solutions" class="btn btn-secondary">See Solutions</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="main-footer">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h4>Solutions</h4>
-                    <ul>
-                        <li><a href="#">Workflow Automation</a></li>
-                        <li><a href="#">Smart Estimation</a></li>
-                        <li><a href="#">Intelligent Scheduling</a></li>
-                        <li><a href="#">Predictive Analytics</a></li>
-                    </ul>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Alltra" class="footer-logo">
+                    <p class="footer-tagline">AI for the trades</p>
                 </div>
-                <div class="footer-column">
-                    <h4>Industries</h4>
-                    <ul>
-                        <li><a href="#">Electrical</a></li>
-                        <li><a href="#">Plumbing</a></li>
-                        <li><a href="#">HVAC</a></li>
-                        <li><a href="#">General Contracting</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Insights</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Connect</h4>
-                    <div class="social-links">
-                        <a href="#" aria-label="LinkedIn">in</a>
-                        <a href="#" aria-label="Twitter">𝕏</a>
-                        <a href="#" aria-label="Facebook">f</a>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="#">Smart Estimation</a></li>
+                            <li><a href="#">Intelligent Scheduling</a></li>
+                            <li><a href="#">Workflow Automation</a></li>
+                            <li><a href="#">Predictive Analytics</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">GitHub</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Alltra. All rights reserved.</p>
-                <div class="footer-links">
+                <div class="footer-legal">
                     <a href="#">Privacy</a>
                     <a href="#">Terms</a>
-                    <a href="#">Accessibility</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
