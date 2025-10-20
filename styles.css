@@ -148,7 +148,7 @@ body {
     transform: translateY(-50%);
     width: 60%;
     height: 80%;
-    background-image: url('logo-transparent.png');
+    background-image: url('logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
