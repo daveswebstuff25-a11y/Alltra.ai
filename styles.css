@@ -25,7 +25,7 @@
 
     /* Spacing */
     --container-max: 1200px;
-    --section-padding: 120px;
+    --section-padding: 60px;
     --gap: 24px;
 
     /* Typography */
@@ -70,17 +70,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    padding: 20px 0;
 }
 
 .logo-img {
-    height: 40px;
+    height: 120px;
     width: auto;
+    max-width: 500px;
     transition: opacity 0.2s;
 }
 
 .logo-img:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .nav-links {
@@ -134,10 +135,10 @@ body {
 /* ========== HERO SECTION ========== */
 .hero {
     position: relative;
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
-    padding: 120px 0 80px;
+    padding: 40px 0 60px;
     overflow: hidden;
 }
 
@@ -225,7 +226,7 @@ body {
 .hero-cta {
     display: flex;
     gap: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .hero-stats {
@@ -298,7 +299,7 @@ body {
 
 .section-header {
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 
 .section-title {
@@ -628,8 +629,9 @@ body {
 }
 
 .footer-logo {
-    height: 32px;
+    height: 80px;
     width: auto;
+    max-width: 350px;
     margin-bottom: 12px;
 }
 
