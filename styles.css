@@ -52,12 +52,12 @@ body {
 
 /* ========== HERO SECTION ========== */
 .hero-bento {
-    padding: 40px 0 20px;
+    padding: 40px 0 0;
     text-align: center;
 }
 
 .hero-logo {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
 }
@@ -69,18 +69,12 @@ body {
 }
 
 .hero-tagline {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--text-white);
-    letter-spacing: -0.02em;
-    line-height: 1.2;
-    max-width: 800px;
-    margin: 0 auto;
+    display: none;
 }
 
 /* ========== BENTO GRID SECTION ========== */
 .bento-section {
-    padding: 20px 0 var(--section-padding);
+    padding: 0 0 var(--section-padding);
 }
 
 .bento-grid {
