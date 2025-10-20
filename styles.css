@@ -63,9 +63,9 @@ body {
 }
 
 .hero-logo img {
-    height: 60px;
+    height: 100px;
     width: auto;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .hero-tagline {
@@ -239,9 +239,9 @@ body {
 }
 
 .footer-logo {
-    height: 50px;
+    height: 70px;
     width: auto;
-    max-width: 280px;
+    max-width: 400px;
     margin-bottom: 16px;
 }
 
