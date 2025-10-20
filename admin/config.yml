@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (main or master)
+
+# For local development testing
+local_backend: true
+
+media_folder: "images/uploads" # Where uploaded images will be stored
+public_folder: "/images/uploads" # Public path to media folder
+
+collections:
+  # Site Settings
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "content/settings/navigation.json"
+        fields:
+          - {label: "Logo Alt Text", name: "logo_alt", widget: "string"}
+          - label: "Menu Items"
+            name: "menu_items"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+
+  # Hero Section
+  - name: "hero"
+    label: "Hero Section"
+    files:
+      - label: "Hero Content"
+        name: "hero"
+        file: "content/hero.json"
+        fields:
+          - {label: "Main Headline", name: "headline", widget: "string"}
+          - {label: "Subheadline", name: "subheadline", widget: "text"}
+          - {label: "Hero Image URL", name: "image", widget: "string", default: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=2000"}
+          - label: "CTA Buttons"
+            name: "cta_buttons"
+            widget: "list"
+            fields:
+              - {label: "Button Text", name: "text", widget: "string"}
+              - {label: "Button Link", name: "link", widget: "string"}
+              - {label: "Button Style", name: "style", widget: "select", options: ["primary", "secondary"]}
+
+  # Featured Solutions
+  - name: "solutions"
+    label: "Featured Solutions"
+    folder: "content/solutions"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Icon (emoji)", name: "icon", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Link", name: "link", widget: "string", default: "#"}
+      - {label: "Order", name: "order", widget: "number", default: 1}
+
+  # Case Studies
+  - name: "case_studies"
+    label: "Case Studies"
+    folder: "content/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tag/Category", name: "tag", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image URL", name: "image", widget: "string"}
+      - {label: "Link", name: "link", widget: "string", default: "#"}
+      - {label: "Order", name: "order", widget: "number", default: 1}
+
+  # Insights
+  - name: "insights"
+    label: "Insights & Blog"
+    folder: "content/insights"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+
+  # Stats
+  - name: "stats"
+    label: "Statistics"
+    files:
+      - label: "Stats Section"
+        name: "stats"
+        file: "content/stats.json"
+        fields:
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+
+  # Footer
+  - name: "footer"
+    label: "Footer"
+    files:
+      - label: "Footer Content"
+        name: "footer"
+        file: "content/footer.json"
+        fields:
+          - {label: "Copyright Text", name: "copyright", widget: "string"}
+          - label: "Footer Columns"
+            name: "columns"
+            widget: "list"
+            fields:
+              - {label: "Column Title", name: "title", widget: "string"}
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - {label: "Link Text", name: "text", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+          - label: "Social Links"
+            name: "social"
+            widget: "list"
+            fields:
+              - {label: "Platform", name: "platform", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}

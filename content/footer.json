@@ -1,0 +1,37 @@
+{
+  "copyright": "© 2025 Alltra. All rights reserved.",
+  "columns": [
+    {
+      "title": "Solutions",
+      "links": [
+        {"text": "Workflow Automation", "url": "#"},
+        {"text": "Smart Estimation", "url": "#"},
+        {"text": "Intelligent Scheduling", "url": "#"},
+        {"text": "Predictive Analytics", "url": "#"}
+      ]
+    },
+    {
+      "title": "Industries",
+      "links": [
+        {"text": "Electrical", "url": "#"},
+        {"text": "Plumbing", "url": "#"},
+        {"text": "HVAC", "url": "#"},
+        {"text": "General Contracting", "url": "#"}
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {"text": "About us", "url": "#"},
+        {"text": "Insights", "url": "#"},
+        {"text": "Careers", "url": "#"},
+        {"text": "Contact", "url": "#"}
+      ]
+    }
+  ],
+  "social": [
+    {"platform": "LinkedIn", "url": "#", "label": "in"},
+    {"platform": "Twitter", "url": "#", "label": "𝕏"},
+    {"platform": "Facebook", "url": "#", "label": "f"}
+  ]
+}

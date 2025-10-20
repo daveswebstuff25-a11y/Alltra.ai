@@ -1,0 +1,10 @@
+{
+  "logo_alt": "Alltra.Ai - Empowering Trades People Through AI",
+  "menu_items": [
+    {"label": "Solutions", "link": "#services"},
+    {"label": "Industries", "link": "#industries"},
+    {"label": "Insights", "link": "#insights"},
+    {"label": "About", "link": "#about"},
+    {"label": "Contact", "link": "#contact"}
+  ]
+}

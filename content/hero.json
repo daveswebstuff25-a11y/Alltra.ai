@@ -1,0 +1,17 @@
+{
+  "headline": "Will you shape the future or be shaped by it?",
+  "subheadline": "AI-powered solutions transforming how trades professionals work, estimate, and grow their business.",
+  "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=2000",
+  "cta_buttons": [
+    {
+      "text": "Start your transformation",
+      "link": "#contact",
+      "style": "primary"
+    },
+    {
+      "text": "Explore insights",
+      "link": "#insights",
+      "style": "secondary"
+    }
+  ]
+}
