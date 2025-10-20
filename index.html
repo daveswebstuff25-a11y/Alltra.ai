@@ -7,240 +7,176 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <div class="logo">
-                    <img src="logo.png" alt="Alltra" class="logo-img">
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#solutions" class="scramble">Solutions</a></li>
-                    <li><a href="#work" class="scramble">Work</a></li>
-                    <li><a href="#about" class="scramble">About</a></li>
-                    <li><a href="#contact" class="nav-cta">Get Started</a></li>
-                </ul>
-                <button class="mobile-toggle" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </nav>
-        </div>
-    </header>
-
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero-bento">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">Empowering Trades Through AI</div>
-                <h1 class="hero-title">
-                    Build smarter.<br>
-                    Work faster.<br>
-                    <span class="gradient-text">Scale bigger.</span>
-                </h1>
-                <p class="hero-description">
-                    AI-powered solutions that transform how trades professionals estimate, schedule, and grow their business.
-                </p>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Start Building</a>
-                    <a href="#work" class="btn btn-secondary">See Our Work</a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <div class="stat-number">70%</div>
-                        <div class="stat-label">Time Saved</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">Solutions Deployed</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-label">Success Rate</div>
-                    </div>
-                </div>
+            <div class="hero-logo">
+                <img src="logo.png" alt="Alltra.Ai">
             </div>
-        </div>
-        <div class="hero-bg"></div>
-    </section>
-
-    <!-- Solutions Section -->
-    <section class="section solutions" id="solutions">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">What We Build</h2>
-                <p class="section-subtitle">AI tools designed for the real world of trades</p>
-            </div>
-
-            <div class="solutions-grid">
-                <div class="solution-card">
-                    <div class="card-icon">⚡</div>
-                    <h3 class="card-title">Smart Estimation</h3>
-                    <p class="card-description">AI learns from your historical data to generate accurate bids in seconds, not hours.</p>
-                    <a href="#" class="card-link">Learn more →</a>
-                </div>
-
-                <div class="solution-card">
-                    <div class="card-icon">🎯</div>
-                    <h3 class="card-title">Intelligent Scheduling</h3>
-                    <p class="card-description">Optimize crew allocation and project timelines with predictive analytics.</p>
-                    <a href="#" class="card-link">Learn more →</a>
-                </div>
-
-                <div class="solution-card">
-                    <div class="card-icon">📊</div>
-                    <h3 class="card-title">Workflow Automation</h3>
-                    <p class="card-description">Eliminate repetitive tasks and focus on what actually grows your business.</p>
-                    <a href="#" class="card-link">Learn more →</a>
-                </div>
-
-                <div class="solution-card">
-                    <div class="card-icon">🔮</div>
-                    <h3 class="card-title">Predictive Analytics</h3>
-                    <p class="card-description">Make data-driven decisions with real-time insights into project performance.</p>
-                    <a href="#" class="card-link">Learn more →</a>
-                </div>
-            </div>
+            <h1 class="hero-tagline">Empowering Trades People Through AI</h1>
         </div>
     </section>
 
-    <!-- Work Section -->
-    <section class="section work" id="work">
+    <!-- Bento Grid -->
+    <section class="bento-section">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Recent Work</h2>
-                <p class="section-subtitle">Real results from real contractors</p>
-            </div>
+            <div class="bento-grid">
 
-            <div class="work-grid">
-                <article class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=500&fit=crop" alt="Electrical contractor workspace">
+                <!-- Card: Smart Estimation -->
+                <div class="bento-card card-blue card-large">
+                    <div class="card-content">
+                        <h2>Smart Estimation</h2>
+                        <p>AI-powered estimates that learn from your data to generate accurate bids in seconds</p>
                     </div>
-                    <div class="work-content">
-                        <span class="work-tag">Electrical</span>
-                        <h3 class="work-title">70% Faster Estimates</h3>
-                        <p class="work-description">Regional electrical contractor transformed their bidding process with AI-powered estimation.</p>
-                        <a href="#" class="work-link">Read case study →</a>
-                    </div>
-                </article>
-
-                <article class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=500&fit=crop" alt="Plumbing business growth">
-                    </div>
-                    <div class="work-content">
-                        <span class="work-tag">Plumbing</span>
-                        <h3 class="work-title">5 to 50 Employees</h3>
-                        <p class="work-description">How intelligent automation helped a local plumber scale to regional leader.</p>
-                        <a href="#" class="work-link">Read case study →</a>
-                    </div>
-                </article>
-
-                <article class="work-card">
-                    <div class="work-image">
-                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop" alt="HVAC optimization">
-                    </div>
-                    <div class="work-content">
-                        <span class="work-tag">HVAC</span>
-                        <h3 class="work-title">15% Higher Margins</h3>
-                        <p class="work-description">Predictive analytics optimized resource allocation for maximum profitability.</p>
-                        <a href="#" class="work-link">Read case study →</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Built for trades, by people who get it</h2>
-                    <p>We're not another tech company trying to disrupt your industry. We're builders who understand the real challenges of running a trades business.</p>
-                    <p>Every solution we create is designed to solve actual problems—faster estimates, better scheduling, smarter decisions. No fluff, no complexity, just tools that work.</p>
-                    <a href="#contact" class="btn btn-primary">Work with us</a>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Years in Trades</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">Projects Delivered</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Support</div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="section cta" id="contact">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Ready to transform your business?</h2>
-                <p class="cta-description">Let's talk about how AI can help you work smarter and scale faster.</p>
-                <div class="cta-buttons">
-                    <a href="mailto:hello@alltra.ai" class="btn btn-primary">Get in Touch</a>
-                    <a href="#solutions" class="btn btn-secondary">See Solutions</a>
+                <!-- Card: Solutions -->
+                <div class="bento-card card-orange card-medium">
+                    <div class="card-content">
+                        <h2>Our Solutions</h2>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M16 20H24M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                 </div>
+
+                <!-- Card: Careers -->
+                <div class="bento-card card-orange card-tall">
+                    <div class="card-content">
+                        <h2>Careers</h2>
+                        <p>Join our mission to transform the trades industry</p>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M15 20L18 23L25 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Card: Workflow Automation -->
+                <div class="bento-card card-orange card-large">
+                    <div class="card-content">
+                        <h2>Workflow Automation</h2>
+                        <p>Eliminate repetitive tasks and focus on growing your business</p>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M24 16L28 20L24 24M16 24L12 20L16 16M22 14L18 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Card: Case Studies -->
+                <div class="bento-card card-blue card-medium">
+                    <div class="card-content">
+                        <h2>Case Studies</h2>
+                        <p>Real results from real contractors</p>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Card: Intelligent Scheduling -->
+                <div class="bento-card card-blue card-tall">
+                    <div class="card-content">
+                        <h2>Intelligent Scheduling</h2>
+                        <p>Optimize crew allocation with predictive analytics</p>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M12 20H28M20 12V28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Card: Predictive Analytics -->
+                <div class="bento-card card-blue card-medium">
+                    <div class="card-content">
+                        <h2>Predictive Analytics</h2>
+                        <p>Data-driven insights for better decisions</p>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Card: Get Started -->
+                <div class="bento-card card-orange card-large">
+                    <div class="card-content">
+                        <h2>Ready to Transform?</h2>
+                        <p>Let's discuss how Alltra can help you grow</p>
+                        <a href="mailto:hello@alltra.ai" class="card-button">Get in Touch</a>
+                    </div>
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+                            <path d="M16 20L20 24L24 20M20 16V24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer-bento">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
+                <div class="footer-col">
                     <img src="logo.png" alt="Alltra" class="footer-logo">
-                    <p class="footer-tagline">AI for the trades</p>
+                    <p>AI for the trades</p>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Solutions</h4>
-                        <ul>
-                            <li><a href="#">Smart Estimation</a></li>
-                            <li><a href="#">Intelligent Scheduling</a></li>
-                            <li><a href="#">Workflow Automation</a></li>
-                            <li><a href="#">Predictive Analytics</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Connect</h4>
-                        <ul>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">GitHub</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#">Smart Estimation</a></li>
+                        <li><a href="#">Workflow Automation</a></li>
+                        <li><a href="#">Intelligent Scheduling</a></li>
+                        <li><a href="#">Predictive Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Alltra. All rights reserved.</p>
-                <div class="footer-legal">
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                </div>
             </div>
         </div>
     </footer>
